@@ -69,7 +69,7 @@ options:
         version_added: '1.1.0'
       access_token:
         description:
-          - Access token used for OAuth authentication.
+          - Access token obtained via OAuth authentication.
           - If not set, the value of the C(SN_ACCESS_TOKEN) environment
             variable will be used.
           - Required when I(grant_type=access_token).
